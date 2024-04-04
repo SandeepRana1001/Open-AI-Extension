@@ -1,0 +1,77 @@
+    html {
+        min-height: 20em;
+        min-width: 20em;
+    }
+
+    .form-group {
+        margin-top: 20px;
+    }
+
+    label {
+        color: #27ae60;
+    }
+
+    #prompt {
+        margin-top: 20px;
+        border: 2px solid #2ecc71;
+        transition: all 1s ease-in-out;
+        box-shadow: none;
+    }
+
+    .min-words {
+        margin-top: 2px !important;
+        float: right !important;
+        color: #27ae60;
+    }
+
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+
+    #error-message {
+        color: #c0392b;
+        visibility: hidden;
+        margin: 10px 0px !important;
+
+    }
+
+
+    #prompt:hover,
+    #prompt:focus {
+        border-color: #27ae60;
+
+    }
+
+    #generateCode {
+        width: 100%;
+        /* background-color: transparent; */
+        border: 2px solid #2ecc71;
+        color: #2ecc71;
+        background: linear-gradient(to right, #27ae60 50%, white 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all 1s ease-in-out;
+    }
+
+    #generateCode:hover,
+    #generateCode:focus {
+        /* background-color: #27ae60; */
+        color: white;
+        border-color: #27ae60;
+        background-position: left bottom;
+    }
+
+    .fa-arrow-right {
+        transition: all 1s ease-in-out;
+        color: #27ae60;
+
+    }
+
+    #generateCode:hover .fa-arrow-right {
+        transform: translateX(10px);
+        color: white;
+
+    }
